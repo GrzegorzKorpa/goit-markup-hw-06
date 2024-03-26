@@ -57,18 +57,27 @@ img {
   padding-right: 15px;
 }
 
-/* common styles for all headers - style wspólne dla wszystkich headerów */
+/* styles for Mobile header - style dla headera Mobile */
 
-.header-style {
+.header_mobile_first {
+  display: flex;
+  max-width: 320px;
+  height: 56px;
+  padding-left: 16px;
+  padding-right: 16px;
+  align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-general {
+.hamburger_mobile_box {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  width: 16.8px;
+  height: 14.4px;
+  justify-content: center;
 }
 
 .logo {
@@ -88,22 +97,18 @@ img {
   color: #2e2f42;
 }
 
-/* styles for Mobile header - style dla headera Mobile */
+/* common styles for all headers - style wspólne dla wszystkich headerów */
 
-.header_mobile {
-  max-width: 320px;
-  height: 56px;
-  padding-left: 16px;
-  padding-right: 16px;
-  justify-content: space-between;
+.header-style {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.hamburger_mobile_box {
+.header-general {
   display: flex;
-  flex-direction: column;
-  width: 16.8px;
-  height: 14.4px;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* styles for Main Page header - style dla headera Main Page */

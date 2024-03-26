@@ -103,8 +103,7 @@ img {
   flex-direction: column;
   width: 16.8px;
   height: 14.4px;
-  align-items: center;
-  align-content: center;
+  justify-content: center;
 }
 
 /* styles for Main Page header - style dla headera Main Page */

@@ -783,6 +783,10 @@ nav .navi-menu-studio {
   border-color: #4d5ae5;
 }
 
+.comment-area::placeholder {
+  font-size: inherit;
+  color: red;
+}
 .check-area {
   margin-bottom: 24px;
 }

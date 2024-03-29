@@ -38,6 +38,66 @@ img {
 }
 
 /* koniec zerowania */
+/* poniżej próba */
+header-style {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* zamienić na .container w css i html */
+.container_tablet_próba {
+  width: 736px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* .menu-flex {
+  display: ;
+  gap: 40px;
+} */
+
+.navi-menu_próba {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+  display: none;
+  padding: 24px 0;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* menu-telflex_tablet{
+  display: none;
+  flex-direction: column;
+  gap: 40px;
+} */
+.link_próba {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* powyżej próba */
 
 /* mobile */
 
@@ -52,18 +112,6 @@ img {
   /* border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
-}
-
-.header-style {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.header-general {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .hamburger_mobile_box {
@@ -885,10 +933,10 @@ nav .navi-menu-studio {
 /* fill:var(--color2, #4d5ae5) */
 
 /* tablet */
-@media (min-width: 321px) and (max-width: 768px) {
-}
+/* @media (min-width: 321px) and (max-width: 768px) {
+} */
 
 /* main page */
 
-@media (min-width: 1158px) {
-}
+/* @media (min-width: 1158px) {
+} */

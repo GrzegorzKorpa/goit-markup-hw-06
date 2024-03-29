@@ -38,88 +38,32 @@ img {
 }
 
 /* koniec zerowania */
-/* poniżej próba */
+
+/* header przed @media */
+
 header-style {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .header-general {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* zamienić na .container w css i html */
+/* zamienić klasę na '.container' w css i html */
 .container_tablet_próba {
-  width: 736px;
+  width: 320px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-/* .menu-flex {
-  display: ;
-  gap: 40px;
-} */
-
-.navi-menu_próba {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #2e2f42;
-  font-style: normal;
-  display: none;
-  padding: 24px 0;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* menu-telflex_tablet{
-  display: none;
-  flex-direction: column;
-  gap: 40px;
-} */
-.link_próba {
-  display: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* powyżej próba */
-
-/* mobile */
-
-.container_mobile_first {
-  max-width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin: 0 auto;
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
-  /* border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
-}
-
-.hamburger_mobile_box {
+.header-nav {
   display: flex;
-  flex-direction: column;
-  width: 16.8px;
-  height: 14.4px;
-  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -139,6 +83,92 @@ header-style {
   color: #2e2f42;
 }
 
+.menu-flex {
+  display: flex;
+  gap: 40px;
+}
+
+/* zamienić klasę na '.navi-menu' w css i html */
+.navi-menu_próba {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+  display: none;
+  padding: 24px 0;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+nav .navi-menu-studio {
+  position: relative;
+  color: #404bbf;
+}
+
+.navi-menu-studio::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
+.navi-menu:hover,
+.navi-menu:focus {
+  color: #404bbf;
+}
+
+/* zamienić klasę na 'menu-telflex' w css i html */
+menu-telflex_tablet {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* zamienić klasę na '.link' w css i html */
+.link_próba {
+  display: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+.hamburger_mobile_box {
+  display: flex;
+  flex-direction: column;
+  width: 16.8px;
+  height: 14.4px;
+  justify-content: center;
+}
+
+/* sss */
+
+/* menu-telflex_tablet{
+  display: none;
+  flex-direction: column;
+  gap: 40px;
+} */
+
 .list-ground {
   background-color: #ffffff;
 }
@@ -150,12 +180,6 @@ header-style {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-menu-telflex_tablet {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
 }
 
 .hero-space_tablet {
@@ -202,75 +226,6 @@ menu-telflex_tablet {
 }
 
 /* styles for Main Page header - style dla headera Main Page */
-
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-
-.navi-menu {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #2e2f42;
-  font-style: normal;
-  display: block;
-  padding: 24px 0;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-nav .navi-menu-studio {
-  position: relative;
-  color: #404bbf;
-  /* height: 4px; */
-}
-
-.navi-menu-studio::after {
-  content: "";
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-
-  background-color: #404bbf;
-  border-radius: 2px;
-}
-
-.navi-menu:hover,
-.navi-menu:focus {
-  color: #404bbf;
-}
-
-.menu-flex {
-  display: flex;
-  gap: 40px;
-}
-
-.link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link:hover,
-.link:focus {
-  color: #404bbf;
-}
-.menu-telflex {
-  display: flex;
-  gap: 40px;
-}
 
 /* Section 1 "Hero" */
 /* h1 */
@@ -932,11 +887,73 @@ nav .navi-menu-studio {
 /* fill="#4d5ae5" */
 /* fill:var(--color2, #4d5ae5) */
 
+/* to '.navi-manu' usunąć w całości */
+.navi-menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+  display: block;
+  padding: 24px 0;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* 'link' zlikwidować w całości */
+.link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* 'menu-telflex' zlikwidować w całości */
+.menu-telflex {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
 /* tablet */
-/* @media (min-width: 321px) and (max-width: 768px) {
-} */
+/* @media (min-width: 321px) and (max-width: 768px) */
+/* {
+.navi-menu {
+  display: block;
+}
+.link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+.hamburger_mobile_box {
+  display: none;}
+}
+  */
 
 /* main page */
+/* @media (min-width: 1158px)*/
+/* {
+.navi-menu {
+  display: block;
+}
 
-/* @media (min-width: 1158px) {
+.menu-telflex {
+  flex-direction: row;
+}
+
+.hamburger_mobile_box {
+  display: none;}
+
 } */

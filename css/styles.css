@@ -764,7 +764,7 @@ nav .navi-menu-studio {
 }
 
 .comment-area {
-  width: 100%;
+  width: 90%;
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
@@ -785,8 +785,11 @@ nav .navi-menu-studio {
 
 .comment-area::placeholder {
   font-size: inherit;
-  color: red;
+  opacity: 1;
+  color: #8e8f99;
+  text-align: left;
 }
+
 .check-area {
   margin-bottom: 24px;
 }

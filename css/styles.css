@@ -385,10 +385,19 @@ menu-telflex_tablet {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-bottom: 72px;
   text-align: center;
+
   color: #2e2f42;
+}
+
+.team-li_tablet {
+  margin: 0 auto;
+  max-width: 264px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-li {
@@ -399,9 +408,12 @@ menu-telflex_tablet {
 }
 
 .name-job_mobile {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center; */
+  height: 104px;
+  max-width: 232px;
 }
 
 .name-job {

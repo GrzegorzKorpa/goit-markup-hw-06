@@ -37,9 +37,13 @@ img {
   }
 }
 
+.list-ground {
+  background-color: #ffffff;
+}
+
 /* koniec zerowania */
 
-/* header przed @media */
+/* header początek przed @media */
 
 header-style {
   border-bottom: 1px solid #e7e9fc;
@@ -57,8 +61,10 @@ header-style {
 .container_mobile_próba {
   width: 320px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .header-nav {
@@ -161,6 +167,10 @@ menu-telflex_tablet {
   justify-content: center;
 }
 
+/* header koniec */
+
+/* hero początek */
+
 /* zamienić klasę na hero-space w css i html */
 .hero-space_mobile {
   background-color: #2e2f42;
@@ -206,28 +216,7 @@ menu-telflex_tablet {
  */
 }
 
-/* sss */
-
-.list-ground {
-  background-color: #ffffff;
-}
-
-/* TABLET  */
-
-.container_tablet {
-  width: 736px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.hero-space_tablet .container_tablet {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
+/* to zostaje */
 .hero-space .container {
   display: flex;
   flex-direction: column;
@@ -235,56 +224,11 @@ menu-telflex_tablet {
   align-items: center;
 }
 
-.hero-image {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/01people-office.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-/* text formatting */
-/* h3 on left dla Section 1, Section 3-"Our Portfolio"*/
-.hthree-left {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-  color: #2e2f42;
-}
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* styles for Main Page header - style dla headera Main Page */
-
-/* Section 1 "Hero" */
-/* h1 */
 .hero-space {
   background-color: #2e2f42;
   padding: 188px 0;
   max-width: 1440px;
   margin: 0 auto;
-}
-
-.hero-image {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/01people-office.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 /* button */
@@ -315,13 +259,19 @@ menu-telflex_tablet {
   justify-content: center;
   align-items: center;
 }
-/* Section 1 "Effective..."*/
-/* nie wyznaczałem zakresu height i width dla tej sekcji */
-/* nagłówek h2 - jest ukrytu*/
-/* h2 center */
 
-.effective-general {
-  padding: 120px 0;
+/* hero koniec */
+
+/* sekcja strategy itd początek*/
+
+/* zamienić na .effective-flex w css i html */
+
+.effective-flex_mobile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  gap: 72px;
 }
 
 .h-two {
@@ -331,6 +281,19 @@ menu-telflex_tablet {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-left: 600px;
+  color: #2e2f42;
+}
+
+/* już zrobiłem dla tego poniżej dla tablet text-align:left; */
+.title-effective {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -346,23 +309,14 @@ menu-telflex_tablet {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-.effective-flex {
-  display: flex;
-  gap: 24px;
-}
-
-.effective-li {
-  width: calc((100% - 72px) / 4);
-}
-
-.effective-icons {
+/* zamienić na .effective-icons w css i html */
+.effective-icons_mobile {
   background-color: #f4f4fd;
   width: 100%;
   height: 112px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
@@ -388,12 +342,38 @@ menu-telflex_tablet {
   letter-spacing: 0.02em;
 }
 
+.hthree-left {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  color: #2e2f42;
+}
+
 /* Section 2 "Our Team" */
 
-.team-space {
+/* zamienić na team-space, main juz ma w media */
+.team-space_mobile {
   background-color: #f4f4fd;
-  padding: 120px 0;
 }
+
+/* zamienić na sectiontwo-flex */
+.sectiontwo-flex_mobile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  gap: 72px;
+}
+/* .effective-flex_mobile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  gap: 72px;
+} */
+
 .sectiontwo-flex {
   display: flex;
   gap: 24px;
@@ -995,10 +975,102 @@ menu-telflex_tablet {
   margin-bottom: 48px;
   max-width: 496px;
 }
+/* zlikwidować */
+/* wcześniej zamienić w html na .conteiner */
+.container_tablet {
+  width: 736px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* zlikwidować */
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* zlikwidować */
+.hero-space_tablet .container_tablet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* zlikwidować */
+.effective-icons {
+  background-color: #f4f4fd;
+  width: 100%;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+/* zlikwidować */
+.title-effective_main {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #2e2f42;
+}
+
+/* zlikwidować */
+/* wczesneij zamienić w html na 'effective-flex' */
+.effective-flex_tablet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 72px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+/* zlikwidować */
+
+.effective-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 120px 0;
+  gap: 24px;
+}
+
+/* zlikwidować */
+/* wczesneij zamiecic w html .effective-li' */
+.effective-li_tablet {
+  width: calc((100% - 24px) / 2);
+}
+
+/* zlikwidować */
+
+.effective-li {
+  width: calc((100% - 72px) / 4);
+}
+
+/* zlikwidować */
+
+.team-space {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
 
 /* tablet */
 /* @media (min-width: 321px) and (max-width: 768px) */
 /* {
+.container{
+  width: 736px;
+  margin: 0 auto;
+
+
 .navi-menu {
   display: block;
 }
@@ -1034,11 +1106,40 @@ menu-telflex_tablet {
   margin-bottom: 48px;
   max-width: 496px;
 }
+
+effective-icons {
+  display: flex;
+}
+.title-effective {
+ 
+  text-align: left;
+  
+}
+
+.effective-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 72px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.effective-li {
+  width: calc((100% - 24px) / 2);
+}
+}
   */
 
 /* main page */
 /* @media (min-width: 1158px)*/
 /* {
+
+.container {
+  width: 1158px;
+
+}
 .navi-menu {
   display: block;
 }
@@ -1056,5 +1157,34 @@ menu-telflex_tablet {
   
 }
 
+effective-icons {
+  display: flex;
+}
+
+.title-effective {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #2e2f42;
+}
+.effective-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 120px 0;
+  gap: 24px;
+}
+
+.effective-li {
+  width: calc((100% - 72px) / 4);
+}
+
+.team-space {
+  
+  padding: 120px 0;
+}
 
 } */

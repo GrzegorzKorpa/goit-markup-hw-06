@@ -398,6 +398,12 @@ menu-telflex_tablet {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.name-job_mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .name-job {
   padding: 32px 0px;
 }

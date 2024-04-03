@@ -474,9 +474,23 @@ menu-telflex_tablet {
   fill: #f4f4fd;
 }
 /* Section 3 "Our Portfolio" */
+
+/* do eykorzystania portfolio na tablecie */
+.portfolio-general_tablet {
+  /* padding-top: px;
+  padding-bottom: px; */
+}
+
 .portfolio-general {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio-ul_tablet {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-ul {
@@ -484,6 +498,10 @@ menu-telflex_tablet {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-li_tablet {
+  width: calc((100% - 24px) / 2);
 }
 
 .portfolio-li {
@@ -515,6 +533,17 @@ menu-telflex_tablet {
   text-transform: capitalize;
   margin-bottom: 72px;
   color: #2e2f42;
+}
+
+.htwo-portfolio_tablet {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 36px;
+  color: #2e2f42;
+  text-align: center;
 }
 
 .text-portfolio {

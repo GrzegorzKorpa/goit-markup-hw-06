@@ -57,11 +57,30 @@ header-style {
   justify-content: space-between;
 }
 
-.mobile_mobile {
+.mobile_mobile-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  background-color: #fff;
+  max-width: 320px;
+  height: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.mobile_mobile-menu-flex {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 151px;
+  padding-right: 100%;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 168px;
 }
 
 /* zamienić klasę na '.container' w css i html */

@@ -43,14 +43,15 @@ img {
 
 /* koniec zerowania */
 
-/* header początek przed @media */
+/* @media (max-width: 320px) */
 
+/* jest x3 */
 header-style {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
+/* jest x3 */
 .header-general {
   display: flex;
   align-items: center;
@@ -186,8 +187,9 @@ header-style {
   width: 193px;
   margin-bottom: 40px;
 }
-/* zamienić klasę na '.container' w css i html */
-.container_mobile_próba {
+
+/* jest już w całym mobile */
+.container {
   width: 320px;
   margin-left: auto;
   margin-right: auto;
@@ -195,6 +197,7 @@ header-style {
   padding-right: 16px;
 }
 
+/* jest x 3 */
 .header-nav {
   display: flex;
   align-items: center;
@@ -217,6 +220,7 @@ header-style {
   color: #2e2f42;
 }
 
+/* jest 3x */
 .menu-flex {
   display: flex;
   gap: 40px;
@@ -230,7 +234,7 @@ header-style {
 }
 
 /* zamienić klasę na '.navi-menu' w css i html */
-.navi-menu_próba {
+.navi-menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -269,15 +273,15 @@ nav .navi-menu-studio {
   color: #404bbf;
 }
 
-/* zamienić klasę na 'menu-telflex' w css i html */
-menu-telflex_tablet {
+/* jest x3 */
+.menu-telflex {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
 
-/* zamienić klasę na '.link' w css i html */
-.link_próba {
+/* powinno być wszędzie jest*/
+.link {
   display: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -1116,7 +1120,7 @@ menu-telflex_tablet {
 /* fill:var(--color2, #4d5ae5) */
 
 /* to '.navi-manu' usunąć w całości */
-.navi-menu {
+/* .navi-menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -1131,9 +1135,9 @@ menu-telflex_tablet {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* 'link' zlikwidować w całości */
-.link {
+/* .link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -1142,49 +1146,49 @@ menu-telflex_tablet {
   text-decoration: none;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* 'menu-telflex' zlikwidować w całości */
-.menu-telflex {
+/* .menu-telflex {
   display: flex;
   flex-direction: row;
   gap: 40px;
-}
+} */
 
 /* zlikwidować */
 
-.hero-space_tablet {
+/* .hero-space_tablet {
   background-color: #2e2f42;
   padding: 112px 0;
   max-width: 768px;
   margin: 0 auto;
-}
+} */
 
 /* zlikwidować */
-
+/* 
 .hero-space {
   background-color: #2e2f42;
   padding: 188px 0;
   max-width: 1440px;
   margin: 0 auto;
-}
+} */
 /* zlikwidować */
-.hero-space_tablet {
+/* .hero-space_tablet {
   background-color: #2e2f42;
   padding: 112px 0;
   max-width: 768px;
   height: 100%;
   margin: 0 auto;
-}
+} */
 /* zlikwidować */
-.hero-space {
+/* .hero-space {
   background-color: #2e2f42;
   padding: 188px 0;
   max-width: 1440px;
   height: 100%;
   margin: 0 auto;
-}
+} */
 /* zlikwidować */
-.h-one {
+/* .h-one {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -1193,33 +1197,33 @@ menu-telflex_tablet {
   text-align: center;
   margin-bottom: 48px;
   max-width: 496px;
-}
+} */
 /* zlikwidować */
 /* wcześniej zamienić w html na .conteiner */
-.container_tablet {
+/* .container_tablet {
   width: 736px;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
-}
+} */
 /* zlikwidować */
 
-.container {
+/* .container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
-}
+} */
 
 /* zlikwidować */
-.hero-space_tablet .container_tablet {
+/* .hero-space_tablet .container_tablet {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 /* zlikwidować */
-.effective-icons {
+/* .effective-icons {
   background-color: #f4f4fd;
   width: 100%;
   height: 112px;
@@ -1229,9 +1233,9 @@ menu-telflex_tablet {
   justify-content: center;
   align-items: center;
   margin-bottom: 8px;
-}
+} */
 /* zlikwidować */
-.title-effective_main {
+/* .title-effective_main {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -1240,11 +1244,11 @@ menu-telflex_tablet {
   margin-bottom: 8px;
   text-align: left;
   color: #2e2f42;
-}
+} */
 
 /* zlikwidować */
 /* wczesneij zamienić w html na 'effective-flex' */
-.effective-flex_tablet {
+/* .effective-flex_tablet {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1252,50 +1256,50 @@ menu-telflex_tablet {
   row-gap: 72px;
   padding-top: 72px;
   padding-bottom: 72px;
-}
+} */
 
 /* zlikwidować */
 
-.effective-flex {
+/* .effective-flex {
   display: flex;
   flex-direction: row;
   padding: 96px 0;
   gap: 24px;
-}
+} */
 
 /* zlikwidować */
 /* wczesneij zamiecic w html .effective-li' */
-.effective-li_tablet {
+/* .effective-li_tablet {
   width: calc((100% - 24px) / 2);
+} */
+
+/* zlikwidować */
+
+/* .effective-li {
+  width: calc((100% - 72px) / 4); */
 }
 
 /* zlikwidować */
 
-.effective-li {
-  width: calc((100% - 72px) / 4);
-}
-
-/* zlikwidować */
-
-.team-space {
+/* .team-space {
   background-color: #f4f4fd;
-  padding: 96px 0;
+  padding: 96px 0; */
 }
 
 /* zlikwidować */
 
-.portfolio-li_tablet {
-  width: calc((100% - 24px) / 2);
+/* .portfolio-li_tablet {
+  width: calc((100% - 24px) / 2); */
 }
 
 /* zlikwidować */
 
-.portfolio-li {
+/* .portfolio-li {
   width: calc((100% - 48px) / 3);
-}
+} */
 
 /* zlikwidować */
-.htwo-portfolio {
+/* .htwo-portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -1303,36 +1307,36 @@ menu-telflex_tablet {
   text-transform: capitalize;
   margin-bottom: 72px;
   color: #2e2f42;
-}
+} */
 /* zlikwidować */
 
-.footer-style {
+/* .footer-style {
   background-color: #2e2f42;
   padding: 100px 0;
-}
+} */
 
 /* zlikwidować */
 
-.p-social {
+/* .p-social {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  text-align: left;
+  text-align: left; */
 }
 
 /* zlikwidować */
-.footer-icons-container {
+/* .footer-icons-container {
   display: flex;
 
   justify-content: center;
   gap: 16px;
-  padding-bottom: 72px;
+  padding-bottom: 72px; */
 }
 /* zlikwidować */
-.button-subscribe {
+/* .button-subscribe {
   min-width: 165px;
   height: 40px;
   display: flex;
@@ -1352,17 +1356,17 @@ menu-telflex_tablet {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-}
+} */
 
 /* zlikwiduj */
 
-.logo-paragraph {
+/* .logo-paragraph {
   margin-right: 120px;
-}
+} */
 
 /* tablet */
-/* @media (min-width: 321px) and (max-width: 768px) */
-/* {
+@media (min-width: 321px) and (max-width: 768px)
+{
 .container{
   width: 736px;
   margin: 0 auto;
@@ -1470,77 +1474,70 @@ effective-icons {
 }
 
 }
-  */
 
 /* main page */
-/* @media (min-width: 1158px)*/
-/* {
+@media (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+  .navi-menu {
+    display: block;
+  }
 
-.container {
-  width: 1158px;
+  .menu-telflex {
+    flex-direction: row;
+  }
 
-}
-.navi-menu {
-  display: block;
-}
+  .hamburger_mobile_box {
+    display: none;
+  }
 
-.menu-telflex {
-  flex-direction: row;
-}
-
-.hamburger_mobile_box {
-  display: none;}
-  
   .hero-space {
-  padding: 188px 0;
-  max-width: 1440px;
-  
+    padding: 188px 0;
+    max-width: 1440px;
+  }
+
+  effective-icons {
+    display: flex;
+  }
+
+  .title-effective {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+    text-align: left;
+    color: #2e2f42;
+  }
+  .effective-flex {
+    display: flex;
+    flex-direction: row;
+    padding: 120px 0;
+    gap: 24px;
+  }
+
+  .effective-li {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .team-space {
+    padding: 120px 0;
+  }
+
+  portfolio-li {
+    width: calc((100% - 48px) / 3);
+  }
+  .htwo-portfolio {
+    margin-bottom: 72px;
+  }
+
+  .p-subscribe {
+    padding-left: 80px;
+  }
+
+  .logo-paragraph {
+    margin-right: 120px;
+  }
 }
-
-effective-icons {
-  display: flex;
-}
-
-.title-effective {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 8px;
-  text-align: left;
-  color: #2e2f42;
-}
-.effective-flex {
-  display: flex;
-  flex-direction: row;
-  padding: 120px 0;
-  gap: 24px;
-}
-
-.effective-li {
-  width: calc((100% - 72px) / 4);
-}
-
-.team-space {
-  padding: 120px 0;
-}
-
-portfolio-li {
-  width: calc((100% - 48px) / 3);
-}
-.htwo-portfolio {
-  margin-bottom: 72px;
-  
-}
-
-.p-subscribe {
-  padding-left: 80px;
-}
-
-
-.logo-paragraph {
-  margin-right: 120px;
-
-
-} */

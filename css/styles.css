@@ -402,9 +402,8 @@ img {
 
   /* sekcja strategy itd początek*/
 
-  /* zamienić na .effective-flex w css i html */
-
-  .effective-flex_mobile {
+  /* jest szansa, że jest na miejscach */
+  .effective-flex {
     display: flex;
     flex-direction: column;
     padding-top: 72px;
@@ -448,7 +447,7 @@ img {
     overflow: hidden;
   }
   /* zamienić na .effective-icons w css i html */
-  .effective-icons_mobile {
+  .effective-icons {
     background-color: #f4f4fd;
     width: 100%;
     height: 112px;

@@ -340,8 +340,8 @@ nav .navi-menu-studio {
   background-size: cover;
 }
 
-/* zamienić na klasę .h-one  w css i html*/
-.h-one_mobile {
+/* jest 3x */
+.h-one {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;

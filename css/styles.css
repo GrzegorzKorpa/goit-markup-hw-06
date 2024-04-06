@@ -43,8 +43,7 @@ img {
 
 /* koniec zerowania */
 
-/* @media (max-width: 320px) */
-
+/* @media (max-width: 320px)  */
 /* jest x3 */
 header-style {
   border-bottom: 1px solid #e7e9fc;
@@ -1466,7 +1465,7 @@ nav .navi-menu-studio {
 /* main page */
 @media (min-width: 1158px) {
   .container {
-    width: 1158px;
+    max-width: 1440px;
   }
   .navi-menu {
     display: block;

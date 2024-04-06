@@ -57,6 +57,10 @@ header-style {
   justify-content: space-between;
 }
 
+.space {
+  padding: 96px 0;
+}
+
 .mobile_mobile-container {
   display: flex;
   flex-direction: column;
@@ -100,6 +104,11 @@ header-style {
   margin-top: 40px;
   margin-bottom: 168px;
 }
+
+/* .mobile_logo-paragraph {
+  margin-right: auto;
+  margin-left: auto;
+} */
 
 .mobile_mobile_navi-menu {
   font-family: "Roboto", sans-serif;
@@ -211,6 +220,13 @@ header-style {
 .menu-flex {
   display: flex;
   gap: 40px;
+}
+
+/* zaminić ma footer-style */
+
+.mobile_footer-style {
+  background-color: #2e2f42;
+  padding: 96px 0;
 }
 
 /* zamienić klasę na '.navi-menu' w css i html */
@@ -693,6 +709,18 @@ menu-telflex_tablet {
 } */
 /* footer */
 
+.effective-flex_mobile_footer {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* column-gap: 24px; */
+  row-gap: 72px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  align-content: center;
+  justify-content: center;
+}
+
 .effective-flex_tablet_footer {
   display: flex;
   flex-direction: row;
@@ -707,11 +735,6 @@ form-subscribe_footer {
   display: flex;
 
   gap: 24px;
-}
-
-.footer-style {
-  background-color: #2e2f42;
-  padding: 100px 0;
 }
 
 .footer-flex {
@@ -853,7 +876,7 @@ form-subscribe_footer {
   margin-left: 16px;
 }
 .modal-home {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
 
@@ -1244,6 +1267,12 @@ form-subscribe_footer {
   margin-bottom: 72px;
   color: #2e2f42;
 }
+/* zlikwidować */
+
+.footer-style {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
 
 /* tablet */
 /* @media (min-width: 321px) and (max-width: 768px) */
@@ -1319,6 +1348,12 @@ effective-icons {
 }
 
 
+.footer-style {
+  padding: 100px 0;
+}
+
+
+}
   */
 
 /* main page */

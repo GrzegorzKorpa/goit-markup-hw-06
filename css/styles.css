@@ -1446,7 +1446,7 @@ img {
 /* main page */
 @media (min-width: 1158px) {
   .container {
-    max-width: 1440px;
+    min-width: 1158px;
   }
   .navi-menu {
     display: block;

@@ -76,11 +76,18 @@ header-style {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-/* heder styl uniwersalny */
+/* header @media x2 */
 .header-general {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 56px;
+}
+
+@media screen and (min-weight: 768px) {
+   {
+    weight: 72px;
+  }
 }
 
 /* heder styl uniwersalny */
@@ -2328,6 +2335,9 @@ nav .navi-menu-studio {
 
 .button-two {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+
   min-width: 169px;
   height: 56px;
   font-family: "Roboto", sans-serif;

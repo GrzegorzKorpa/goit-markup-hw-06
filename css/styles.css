@@ -172,7 +172,7 @@ address .tel_mobile_mobile {
   height: 4px;
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: 8px;
   background-color: #404bbf;
   border-radius: 2px;
 }
@@ -286,30 +286,34 @@ address .tel_mobile_mobile {
 
 @media screen and (min-width: 768px) {
   .mobile_mobile-container {
+    position: absolute;
+    top: 0;
+    background: #fff;
     display: flex;
     flex-direction: column;
     border: 2px solid #2e2f42;
     height: 640px;
     width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
-.mobile_mobile-window {
+/* .mobile_mobile-window {
   position: relative;
   width: 320px;
-  /* border: 2px solid #2e2f42; */
+  border: 2px solid #2e2f42;
   padding-left: 16px;
   padding-right: 16px;
-}
+} */
 
 .button-mobile_mobile {
   position: absolute;
-
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
-  margin-bottom: 105px;
+  /* margin-bottom: 105px; */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -340,12 +344,12 @@ address .tel_mobile_mobile {
 .mobile_mobile-menu-flex {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 151px;
   height: 200px;
   padding-right: 100%;
   /* align-items: center; */
   justify-content: space-between;
-  margin-top: 105px;
+  margin-top: 72px;
   margin-bottom: 168px;
 }
 
@@ -375,7 +379,7 @@ address .tel_mobile_mobile {
   height: 72px;
   padding-right: 100%;
   justify-content: space-between;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 
 .mobile_mobile-link {
@@ -415,9 +419,9 @@ address .tel_mobile_mobile {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 72px;
-  width: 288px;
-  margin-bottom: 40px;
+  height: 40px;
+  width: 280px;
+  /* margin-bottom: 40px; */
 }
 
 /* mobile_mobile koniec stylizacji */
@@ -543,7 +547,7 @@ address .tel_mobile_mobile {
 }
 
 /* strategy styl uniwersalny */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -554,7 +558,7 @@ address .tel_mobile_mobile {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 /* strategy @media x3 */
 @media screen and (max-width: 767px) {
@@ -572,8 +576,8 @@ address .tel_mobile_mobile {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 }
 
@@ -881,7 +885,7 @@ address .tel_mobile_mobile {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    padding-bottom: 72px;
+    /* padding-bottom: 72px; */
     justify-content: center;
   }
 }
@@ -901,7 +905,7 @@ address .tel_mobile_mobile {
 
 .portfolio-li {
   margin: 0 auto;
-  width: 264px;
+  width: 288px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);

@@ -315,7 +315,7 @@ address .tel_mobile_mobile {
 .button-mobile_mobile {
   position: absolute;
   top: 24px;
-  right: -12px;
+  right: 0px;
 
   width: 24px;
   height: 24px;
@@ -353,7 +353,7 @@ address .tel_mobile_mobile {
   width: 151px;
   height: 200px;
   padding-right: 100%;
-  /* align-items: center; */
+
   justify-content: space-between;
   margin-top: 72px;
   margin-bottom: 168px;
@@ -1342,7 +1342,7 @@ address .tel_mobile_mobile {
 
 /* xzamień na fixef */
 .modal-home {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 0;
   left: 0;

@@ -284,7 +284,7 @@ address .tel_mobile_mobile {
 
 /* mobile_mobile początek stylizacji */
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .mobile_mobile-container {
     position: absolute;
     top: 0;
@@ -295,25 +295,31 @@ address .tel_mobile_mobile {
     height: 640px;
     width: 320px;
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 24px;
   }
 }
 
-/* .mobile_mobile-window {
+@media screen and (min-width: 768px) {
+  .mobile_mobile-container {
+    display: none;
+  }
+}
+
+.mobile_mobile-window {
   position: relative;
-  width: 320px;
-  border: 2px solid #2e2f42;
+  /* width: 320px;
   padding-left: 16px;
-  padding-right: 16px;
-} */
+  padding-right: 16px; */
+}
 
 .button-mobile_mobile {
   position: absolute;
   top: 24px;
-  right: 24px;
+  right: -12px;
+
   width: 24px;
   height: 24px;
-  /* margin-bottom: 105px; */
+
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -379,7 +385,7 @@ address .tel_mobile_mobile {
   height: 72px;
   padding-right: 100%;
   justify-content: space-between;
-  /* margin-bottom: 48px; */
+  margin-bottom: 48px;
 }
 
 .mobile_mobile-link {
@@ -430,6 +436,7 @@ address .tel_mobile_mobile {
 
 /* hero @media x3 */
 .hero-space {
+  position: relative;
   background-color: #2e2f42;
   padding-top: 72px;
   max-width: 320px;
@@ -547,7 +554,7 @@ address .tel_mobile_mobile {
 }
 
 /* strategy styl uniwersalny */
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -558,7 +565,7 @@ address .tel_mobile_mobile {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-} */
+}
 
 /* strategy @media x3 */
 @media screen and (max-width: 767px) {
@@ -1132,7 +1139,6 @@ address .tel_mobile_mobile {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-
   text-align: center;
 }
 

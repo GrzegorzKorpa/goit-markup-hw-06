@@ -286,7 +286,11 @@ address .tel_mobile_mobile {
 
 @media screen and (min-width: 768px) {
   .mobile_mobile-container {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #2e2f42;
+    height: 640px;
+    width: 320px;
   }
 }
 
@@ -300,9 +304,9 @@ address .tel_mobile_mobile {
 
 .button-mobile_mobile {
   position: absolute;
-  /* top 32 bo od góry containera, a right 16 bo od window */
-  top: 32px;
-  right: 16px;
+
+  top: 24px;
+  right: 24px;
   width: 24px;
   height: 24px;
   margin-bottom: 105px;
@@ -1327,6 +1331,7 @@ address .tel_mobile_mobile {
 
 /* xzamień na fixef */
 .modal-home {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
